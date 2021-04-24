@@ -1,0 +1,50 @@
+{
+  "name": "template-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.13.2",
+    "axios": "^0.21.1",
+    "beautiful-react-hooks": "^0.31.0",
+    "express": "^4.17.1",
+    "history": "^4.9.0",
+    "moment": "^2.24.0",
+    "node-sass": "^5.0.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "node ./server/server.js",
+    "dev": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "redux-logger": "^3.0.6"
+  }
+}
